@@ -1,15 +1,16 @@
+import {extraInstruments} from './instruments.js';
 export const uid=()=>globalThis.crypto.randomUUID();
 export const clamp=(x,a,b)=>Math.min(b,Math.max(a,x));
 export const presets=[
  ['piano','Piano feutré','Pianos','triangle',.006,.9,2400],['epiano','Piano électrique','Pianos','sine',.01,1.4,4200],
- ['guitar','Guitare pincée','Guitares','triangle',.003,.65,3200],['bass','Basse profonde','Basses','sine',.008,.25,650],
+ ['guitar','Guitare acoustique douce','Guitares','triangle',.003,.65,3200],['bass','Basse profonde','Basses','sine',.008,.25,650],
  ['drums','Batterie électronique','Batteries','sine',.001,.12,12000],['perc','Percussions sèches','Percussions','triangle',.001,.13,2200],
  ['pad','Nappe nocturne','Synthétiseurs','sawtooth',.35,1.8,1600],['lead','Synthé solo cobalt','Synthétiseurs','square',.015,.2,3000],
  ['strings','Cordes synthétiques','Cordes','sawtooth',.15,.8,2200],['brass','Cuivres synthétiques','Cuivres','sawtooth',.06,.3,1800],
  ['flute','Flûte douce','Vents','sine',.06,.25,3500],['organ','Orgue harmonique','Orgues','sine',.01,.12,5000],
  ['bell','Cloche cristalline','Acoustiques','sine',.002,1.7,8000],['texture','Texture orbitale','Textures','triangle',.5,2.5,1000],
  ['choir','Nappe chorale synthétique','Chœurs','triangle',.2,1.1,1200],['fx','Impact électronique','Effets','sawtooth',.001,1,700]
-].map(([id,name,category,wave,attack,release,filter])=>({id,name,category,wave,attack,release,filter}));
+].map(([id,name,category,wave,attack,release,filter])=>({id,name,category,wave,attack,release,filter})).concat(extraInstruments);
 export function newProject(name='Projet sans titre'){return {format:'lyes',version:1,id:uid(),name,bpm:90,bars:16,master:.75,tracks:[],markers:[],assets:{},updated:Date.now(),status:'En cours',kind:'Instrumental'};}
 export function newTrack(preset='piano'){const p=presets.find(p=>p.id===preset)||presets[0];return {id:uid(),name:p.name,preset:p.id,color:['#6674ff','#b18aff','#f379b4','#48c6c5','#f0b779'][Math.floor(Math.random()*5)],volume:.65,pan:0,mute:false,solo:false,attack:p.attack,release:p.release,filter:p.filter,reverb:.15,delay:0,clips:[]};}
 export function newClip(start=0,length=16){return {id:uid(),type:'midi',name:'Nouvelle séquence',start,length,notes:[]};}

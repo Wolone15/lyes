@@ -1,3 +1,4 @@
+import {createSeparator} from './separation-server.mjs';
 import {isIP} from 'node:net';
 import {createStorage} from './storage-server.mjs';
 import {randomBytes,randomUUID,scrypt as scryptCallback,timingSafeEqual,createHash} from 'node:crypto';
@@ -9,6 +10,7 @@ export function createAccounts({directory,maxAccounts=50,supabaseUrl,supabaseKey
  const sessions=new Map(),attempts=new Map();
  const storage=createStorage({directory,url:supabaseUrl,key:supabaseKey});
  const users=storage.readUsers;
+ const separator=createSeparator(process.env.LYES_DEMUCS_PYTHON);
  const token=req=>String(req.headers.cookie||'').split(';').map(v=>v.trim()).find(v=>v.startsWith('lyes_session='))?.slice(13);
  const digest=t=>t?createHash('sha256').update(t).digest('hex'):'';
  const current=req=>{const key=digest(token(req)),s=sessions.get(key);if(!s||s.expires<Date.now()){sessions.delete(key);return null;}return s;};
@@ -28,7 +30,7 @@ export function createAccounts({directory,maxAccounts=50,supabaseUrl,supabaseKey
  };
  const rateLimit=req=>{const key=keyFor(req),now=Date.now(),recent=(attempts.get(key)||[]).filter(t=>t>now-15*60*1000);if(recent.length>=15)throw Object.assign(Error('Trop de tentatives. Attends quinze minutes avant de réessayer.'),{status:429});recent.push(now);attempts.set(key,recent);};
  return async function handle(req,res,url){
- if(!url.pathname.startsWith('/api/auth/')&&!url.pathname.startsWith('/api/projects')&&!url.pathname.startsWith('/api/admin/'))return false;
+ if(!url.pathname.startsWith('/api/auth/')&&!url.pathname.startsWith('/api/projects')&&!url.pathname.startsWith('/api/admin/')&&url.pathname!=='/api/separation')return false;
  const send=(status,data)=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};
  try{
  if(req.headers.origin){let origin;try{origin=new URL(req.headers.origin);}catch{}if(!origin||origin.host!==req.headers.host||!['http:','https:'].includes(origin.protocol)){send(403,{error:'Cette demande doit provenir du site LYES.'});return true;}}
@@ -47,6 +49,12 @@ export function createAccounts({directory,maxAccounts=50,supabaseUrl,supabaseKey
  }
  if(!session){send(401,{error:'Connecte-toi à ton compte pour accéder à tes projets.'});return true;}
  if(req.headers['x-lyes-account']!==session.user.id){send(409,{error:'Le compte connecté a changé. Recharge la page pour retrouver le bon espace.'});return true;}
+ if(pathname==='/api/separation'){
+ if(req.method==='GET'){send(200,{available:separator.available});return true;}
+ if(req.method!=='POST'){send(405,{error:'Cette opération n’est pas disponible.'});return true;}
+ if(Number(req.headers['content-length'])>32*1024*1024){req.resume();send(413,{error:'Le fichier est limité à 32 Mo pour la séparation.'});return true;}
+ send(200,await separator.separate(req,url.searchParams.get('mode')));return true;
+ }
  if(pathname.startsWith('/api/admin/')){
  const all=await users(),actor=all.find(u=>u.id===session.user.id);
  if(!isAdmin(actor)){send(403,{error:'Cet espace est réservé à l’administrateur de LYES.'});return true;}
