@@ -2,14 +2,14 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {mkdtemp,readFile} from 'node:fs/promises';
 import path from 'node:path';
-import {fileURLToPath} from 'node:url';
+import {tmpdir} from 'node:os';
 import {createServer} from '../server.mjs';
 import {newProject} from '../src/model.js';
-const prefix=fileURLToPath(new URL('../../../work/account-tests-',import.meta.url));
+const prefix=path.join(tmpdir(),'lyes-account-tests-');
 const start=server=>new Promise(resolve=>server.listen(0,'127.0.0.1',()=>resolve('http://127.0.0.1:'+server.address().port)));
 const close=server=>new Promise(resolve=>{server.close(resolve);server.closeAllConnections();});
 test('comptes persistants, sessions et projets isolés entre deux utilisateurs',async()=>{
- const directory=await mkdtemp(prefix),server=createServer({dataDirectory:directory}),base=await start(server);let second;
+ const directory=await mkdtemp(prefix),server=createServer({dataDirectory:directory,maxAccounts:2}),base=await start(server);let second;
  const request=async(url,{method='GET',body,cookie,account,origin}={})=>{const r=await fetch(base+url,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(cookie?{Cookie:cookie}:{}),...(account?{'X-Lyes-Account':account}:{}),...(origin?{Origin:origin}:{})},body:body?JSON.stringify(body):undefined});return {status:r.status,data:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0],setCookie:r.headers.get('set-cookie')};};
  try{
  assert.equal((await request('/api/projects')).status,401);

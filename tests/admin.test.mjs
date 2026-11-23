@@ -1,12 +1,12 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {mkdtemp,readFile,writeFile} from 'node:fs/promises';
-import {fileURLToPath} from 'node:url';
+import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {createServer} from '../server.mjs';
 import {newProject} from '../src/model.js';
 test('administration : droits serveur, profils, confidentialité et compatibilité du premier compte',async()=>{
- const directory=await mkdtemp(fileURLToPath(new URL('../../../work/admin-tests-',import.meta.url))),server=createServer({dataDirectory:directory});
+ const directory=await mkdtemp(path.join(tmpdir(),'lyes-admin-tests-')),server=createServer({dataDirectory:directory});
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));const base='http://127.0.0.1:'+server.address().port;
  const request=async(url,{method='GET',body,user,cookie,account}={})=>{const r=await fetch(base+url,{method,headers:{...(body?{'Content-Type':'application/json'}:{}),...(user?{Cookie:user.cookie,'X-Lyes-Account':user.data.user.id}:{}),...(cookie?{Cookie:cookie}:{}),...(account?{'X-Lyes-Account':account}:{})},body:body?JSON.stringify(body):undefined});return {status:r.status,data:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0]};};
  try{
