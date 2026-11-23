@@ -1,0 +1,3037 @@
+{
+  "format": "lyes",
+  "version": 1,
+  "id": "c1cb6cc9-6954-44a0-9f5d-f6335c9d982c",
+  "name": "Nocturne — session découverte",
+  "bpm": 90,
+  "bars": 16,
+  "master": 0.75,
+  "tracks": [
+    {
+      "id": "564d8444-365d-48b3-9fdb-4837ea2b4099",
+      "name": "Piano feutré",
+      "preset": "piano",
+      "color": "#7181ff",
+      "volume": 0.48,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "attack": 0.006,
+      "release": 0.9,
+      "filter": 2400,
+      "reverb": 0.15,
+      "delay": 0,
+      "clips": [
+        {
+          "id": "832dfc6d-eb9b-40ec-9aed-921b09e1f40a",
+          "type": "midi",
+          "name": "Accords de nuit",
+          "start": 0,
+          "length": 16,
+          "notes": [
+            {
+              "id": "bdba8128-333c-4766-981f-7a951c77faa7",
+              "time": 0,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "63b14490-5e54-483c-948a-ffdc3695fb93",
+              "time": 0,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "be3dce90-23cb-4d37-b0fd-a1eb04c47b93",
+              "time": 0,
+              "pitch": 64,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "043df10e-f0ee-496b-8373-afb3ee6158bc",
+              "time": 4,
+              "pitch": 53,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "f5774b73-f9f8-4150-a791-4b3445af8a01",
+              "time": 4,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "6e8bfedb-381c-493b-959b-35761adec86c",
+              "time": 4,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "07202431-6f58-462f-b0ba-4523e7d14120",
+              "time": 8,
+              "pitch": 48,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "933b1e10-1599-4d3d-9017-51bcafc042a8",
+              "time": 8,
+              "pitch": 52,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "b8208af9-b96d-4a7a-9b8a-f5162a018644",
+              "time": 8,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "a3dcce55-b80a-4c02-b9bb-c94b615a150d",
+              "time": 12,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "8e9a365a-090a-4dd1-b6f3-eb0c2c41e7eb",
+              "time": 12,
+              "pitch": 59,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "baac9703-a7ca-4367-b17b-885a8f24d114",
+              "time": 12,
+              "pitch": 62,
+              "duration": 3.5,
+              "velocity": 0.6
+            }
+          ]
+        },
+        {
+          "id": "27d39bb8-5b7e-467f-9382-c9bc9b5e8a70",
+          "type": "midi",
+          "name": "Accords de nuit",
+          "start": 16,
+          "length": 16,
+          "notes": [
+            {
+              "id": "645d853b-491c-434c-8bba-9d38b48fc5f5",
+              "time": 0,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "4fe48e16-1ad4-4dad-92bc-d04c773263a3",
+              "time": 0,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "4d84fd0b-e95a-4948-b0a4-90b5b82ba2a6",
+              "time": 0,
+              "pitch": 64,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "9d13a5cb-5d85-43f6-bfdf-2930c3c59ab7",
+              "time": 4,
+              "pitch": 53,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "cddffecb-845e-4507-92a1-47fa0fe1e021",
+              "time": 4,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "74cc3280-4cae-40d2-9f19-ec47efed822e",
+              "time": 4,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "6f8ec36d-a7cc-4dc6-b8fb-1927a7ff7a3f",
+              "time": 8,
+              "pitch": 48,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "73ccd866-22ef-4314-8fc1-05b1e4889da8",
+              "time": 8,
+              "pitch": 52,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "90906659-2fe5-46bf-a114-63864b7438bf",
+              "time": 8,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "010af5e2-1cff-4ffe-aa14-a6e71797e959",
+              "time": 12,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "5e1f446a-ac61-47e2-b80f-992998f9d437",
+              "time": 12,
+              "pitch": 59,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "5e479827-47d6-4e18-8971-0c9fbd6c4db1",
+              "time": 12,
+              "pitch": 62,
+              "duration": 3.5,
+              "velocity": 0.6
+            }
+          ]
+        },
+        {
+          "id": "90880e9c-97ff-4213-a856-bb2753fecc21",
+          "type": "midi",
+          "name": "Accords de nuit",
+          "start": 32,
+          "length": 16,
+          "notes": [
+            {
+              "id": "c3a27ad9-03df-4651-91bb-c4c76a14ca78",
+              "time": 0,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "502c7684-453a-4746-80a9-27957cf8b01c",
+              "time": 0,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "fa5982dd-58b3-4265-80fd-c8d39f38fde6",
+              "time": 0,
+              "pitch": 64,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "80543e54-9d9b-414d-84f2-8e938a340c0e",
+              "time": 4,
+              "pitch": 53,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "42e2a1d1-5c8c-42bf-b658-916861397a96",
+              "time": 4,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "9f7a56af-cbd4-4407-94d6-51826ef60817",
+              "time": 4,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "de1d4fff-b762-4029-a882-fa4d3c612edc",
+              "time": 8,
+              "pitch": 48,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "43198daa-127b-4940-9bda-884ee9cf9b67",
+              "time": 8,
+              "pitch": 52,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "4c499b00-d7ed-4b62-97fc-b26fea17d010",
+              "time": 8,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "7f00cf37-4766-472f-8d02-1daa6ea0373c",
+              "time": 12,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "dbe148eb-d072-45c8-86ca-146a0132593c",
+              "time": 12,
+              "pitch": 59,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "02595d18-70ea-46e7-8f61-447f5f1b0e97",
+              "time": 12,
+              "pitch": 62,
+              "duration": 3.5,
+              "velocity": 0.6
+            }
+          ]
+        },
+        {
+          "id": "26539960-6f91-4a2c-a31e-a6dab9d6fb8a",
+          "type": "midi",
+          "name": "Accords de nuit",
+          "start": 48,
+          "length": 16,
+          "notes": [
+            {
+              "id": "0096c139-ec88-4997-93b2-26e0838da074",
+              "time": 0,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "900e8415-dd02-49d9-b21c-432549bc6bcc",
+              "time": 0,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "67e45fbd-c5af-494d-b455-493c5819a5f4",
+              "time": 0,
+              "pitch": 64,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "f1b0481b-f944-4141-848b-04fd189a147e",
+              "time": 4,
+              "pitch": 53,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "e327947c-4dbe-43e8-9d51-c68f5c4c322e",
+              "time": 4,
+              "pitch": 57,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "315f145e-f937-4471-b432-c8b776e4c0e7",
+              "time": 4,
+              "pitch": 60,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "5de2a2fb-b848-49e9-ab15-b02477fa77c0",
+              "time": 8,
+              "pitch": 48,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "af96762c-7261-449c-b977-ce6d469be560",
+              "time": 8,
+              "pitch": 52,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "a4564939-7cf3-457d-b55f-168f466fdac4",
+              "time": 8,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "d7e5e5d8-e14c-4781-a2cb-48fc75fffa37",
+              "time": 12,
+              "pitch": 55,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "9814caf3-1c1b-4a86-840a-693ec4ec2788",
+              "time": 12,
+              "pitch": 59,
+              "duration": 3.5,
+              "velocity": 0.6
+            },
+            {
+              "id": "d2c5d4d3-353b-45ed-aafe-ebc2fce02635",
+              "time": 12,
+              "pitch": 62,
+              "duration": 3.5,
+              "velocity": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "718c1ab9-1360-4117-bfe1-8116c34e5e38",
+      "name": "Guitare pincée",
+      "preset": "guitar",
+      "color": "#b58cf4",
+      "volume": 0.48,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "attack": 0.003,
+      "release": 0.65,
+      "filter": 3200,
+      "reverb": 0.15,
+      "delay": 0,
+      "clips": [
+        {
+          "id": "0e859e79-c601-492f-beaa-be0d1b3c4fbc",
+          "type": "midi",
+          "name": "Éclats pincés",
+          "start": 0,
+          "length": 16,
+          "notes": [
+            {
+              "id": "a0ef18bf-2615-402a-9b2b-0b10ae453a02",
+              "time": 0,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "5acfd8ed-a264-4019-bb8b-3aa8533ffb8e",
+              "time": 0.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "faab09ef-e0f4-4dd4-b201-b6799aae4f57",
+              "time": 1,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "2873c642-3656-430f-bf92-6ef3c2ef0bc3",
+              "time": 1.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "1a82c0c5-1ea4-4d7c-8ac1-474d4f77a67d",
+              "time": 2,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "2b1320ea-70c2-45e7-ae5f-8ef63de614c7",
+              "time": 2.5,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "1a6bb411-21bc-42f8-b0ec-c19789d68002",
+              "time": 3,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "9aeb505f-1cd3-4848-960c-0934b01c34ba",
+              "time": 3.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "5ea223d3-d4b8-43c6-8a21-640127b014e4",
+              "time": 4,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "7c57bb45-1463-4d0b-beea-5f23c82e7ab3",
+              "time": 4.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "1f51c49b-a817-4d97-8707-d573a873c083",
+              "time": 5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "c16e99fa-370c-4c7a-8e73-995bf5608a9b",
+              "time": 5.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9840a365-f1b7-4704-82d9-44ea0e4b98b1",
+              "time": 6,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "d21f1297-ff6f-40a7-9692-2eccf255ea9c",
+              "time": 6.5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "a5dba801-9f14-43c1-bdcd-dfe248e209fa",
+              "time": 7,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "5ad06063-e0b0-416a-98cf-7c38be5af493",
+              "time": 7.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "302d2c2a-b5c8-4cbd-b12a-c04f37f426ac",
+              "time": 8,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "68e15e53-fccb-4ebe-91d8-0f0950b2de17",
+              "time": 8.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "fa087ac7-21c0-4fbe-83e9-f162fa6bcf2f",
+              "time": 9,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "ff17547c-4223-47fc-9b7c-ad247499a2aa",
+              "time": 9.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "b35ad2df-498b-41d6-a441-f0bbddb8a147",
+              "time": 10,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "96753df8-3203-4a21-955d-adcf8222edc8",
+              "time": 10.5,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "674c2063-128f-41f5-9c8e-a7035b90c628",
+              "time": 11,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "9c81c823-0675-4023-9df1-deb467675a34",
+              "time": 11.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "2a2e0c18-ab03-4f1a-a967-cac5bc2b118a",
+              "time": 12,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "5790c6dc-7b86-4e8f-ae5c-fd3846abf4e4",
+              "time": 12.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9413396a-b083-4950-8c11-955efada5662",
+              "time": 13,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "f406c967-bc80-401c-9c86-db18b8bd8d1c",
+              "time": 13.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "484d3546-1bb9-4079-9714-be24d1bdec88",
+              "time": 14,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "3320bb93-dbbc-457d-baea-f125b1a130df",
+              "time": 14.5,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "1ad87c57-5f95-44b0-a329-82e7c9e12e1b",
+              "time": 15,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "c7720437-ade6-476e-9c29-ba271f5eabd4",
+              "time": 15.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            }
+          ]
+        },
+        {
+          "id": "21cc61c3-7999-4a6a-9792-7af7074eff31",
+          "type": "midi",
+          "name": "Éclats pincés",
+          "start": 16,
+          "length": 16,
+          "notes": [
+            {
+              "id": "a8b806a4-692f-404e-9149-908d3851dd01",
+              "time": 0,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "ee79594d-e490-44eb-8da7-016de97084dc",
+              "time": 0.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9a6ba62c-e8cb-49a6-812f-ed578bf62e17",
+              "time": 1,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "87fd5841-4687-4da5-8f4b-8bf53a1f6da1",
+              "time": 1.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "035520f6-c2c8-472b-9a75-16f7b35cd546",
+              "time": 2,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "053f9823-4e8c-425d-a95a-d1e9e334e6ca",
+              "time": 2.5,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "65528b1a-8e66-4e88-9c15-25c833fcfec3",
+              "time": 3,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "d0d5e59d-db34-4416-95a6-4824963d0c41",
+              "time": 3.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "a0a0a2a4-6a66-4e55-ba3f-b3035070b521",
+              "time": 4,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "8a4d09a5-dbb8-4e74-869d-0a92f4938fa2",
+              "time": 4.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "949e82ab-b11a-4502-9eff-0d17fef3a8bc",
+              "time": 5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "4ded51fa-ada2-4ccb-9e88-905ac763de61",
+              "time": 5.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "f26ec0b4-62b5-4842-8d5f-45b620074024",
+              "time": 6,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "5e55a2c0-d3f3-4fb9-8df5-28fc6412fea9",
+              "time": 6.5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "0f494342-1904-4fe9-85eb-03a99cec855e",
+              "time": 7,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "d6128ebd-239f-4974-a8a6-53e0009cf2eb",
+              "time": 7.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "615d0bf9-3f3b-4218-9406-c8680c446c3d",
+              "time": 8,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "1d8f52ec-1155-40ba-aa7a-c9302214676d",
+              "time": 8.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "ad16057c-d926-4ab3-be09-5834500ba73b",
+              "time": 9,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "385aa792-7f68-4485-af8b-bf91dd25402a",
+              "time": 9.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "ed591cc2-6e56-4873-a85d-bfb1b64a0a76",
+              "time": 10,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "99bc1e2a-09ec-4139-8f53-5704cf491b96",
+              "time": 10.5,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "72916416-0cd3-4413-8299-4dc841a950f0",
+              "time": 11,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "578895e8-d064-4ef5-9945-579d4b86d476",
+              "time": 11.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "fd235440-e432-4101-890c-9aa0f9e2cc48",
+              "time": 12,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "6fb1eb07-2512-44cc-953e-7b529505fc82",
+              "time": 12.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "6bb2dc97-f7d0-4334-941e-d3d4554dce13",
+              "time": 13,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "bc9e671b-7771-4283-8c8d-d06f741c4883",
+              "time": 13.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "a8cef98c-0943-48b2-9c87-5c2f245f78c0",
+              "time": 14,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "7a7661ba-6870-4b0b-b113-c140d7bb88ea",
+              "time": 14.5,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "6c18e35f-03c7-48fb-b08a-9b0c6ec1c9fe",
+              "time": 15,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "90f06a70-2957-4430-8643-a0553eec1204",
+              "time": 15.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            }
+          ]
+        },
+        {
+          "id": "a46e25e4-e193-4f72-acdc-05a80bf3c9f0",
+          "type": "midi",
+          "name": "Éclats pincés",
+          "start": 32,
+          "length": 16,
+          "notes": [
+            {
+              "id": "66c3d2d3-e2ee-49ed-96ee-8bb53e119818",
+              "time": 0,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "856f09ad-ff33-4bbe-b34a-c64ce4676cea",
+              "time": 0.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "f0f44927-3874-4494-9982-3eece3d396a0",
+              "time": 1,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "284ceb7b-da39-4cf2-aba1-2751a91de909",
+              "time": 1.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "719d7463-3ae7-44b5-b424-f6b554d4551d",
+              "time": 2,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "1445104b-060a-48eb-8de2-1e32e35975b5",
+              "time": 2.5,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "0ff28cf6-99b0-4613-95e4-d56f9edd9b35",
+              "time": 3,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "4fcf9610-46ee-4be1-97a2-c9935c811a05",
+              "time": 3.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "91161f5e-55db-4c76-b2fd-4b15660f687c",
+              "time": 4,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "82a01b2f-64a4-4556-9cdb-4e0452c8c344",
+              "time": 4.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "bfa54ca6-4068-465c-a37a-26cc205ef8f5",
+              "time": 5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "1079a395-6a28-4e68-b001-8755886dde82",
+              "time": 5.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "cf0a5335-b198-4a7d-ae98-bcb6e93abb19",
+              "time": 6,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "4010f70f-5fb7-4f62-8e64-8ccb9a985ff9",
+              "time": 6.5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "3ff5884a-e26e-4fed-8fc9-58b5c042d524",
+              "time": 7,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "4a5bfc76-cb99-4d9a-869e-f87ac844b1cc",
+              "time": 7.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "f043456c-3d67-4c2b-bc77-9de8fc201832",
+              "time": 8,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "7f129440-82b4-4c98-8c42-6baa3504bd29",
+              "time": 8.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "05af4640-b4b6-4da2-a99c-73abbf50fa1a",
+              "time": 9,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "2cc8b797-9985-44e8-9538-c56e891a1771",
+              "time": 9.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "f7c5b89f-15c5-4a53-9b6c-28c9eb4c399f",
+              "time": 10,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "303dff4e-6c88-4799-9d63-2996fab74045",
+              "time": 10.5,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "5f88ce10-ddb3-4bc2-a3e2-de8848098a6f",
+              "time": 11,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "a1af11df-970a-4249-9100-f9f4c23f098b",
+              "time": 11.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "689cc049-7242-4bc4-b359-0cb9d912e6ec",
+              "time": 12,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "f764cf23-7226-4397-b6e5-c7283e5e599e",
+              "time": 12.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "8d9286de-b31d-4a04-afa7-e97641859c37",
+              "time": 13,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "12baba93-9b4f-4a07-b29d-bd0d6031a6e7",
+              "time": 13.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "02446707-d073-4219-ada7-cac4d50a6dab",
+              "time": 14,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "cb9782b5-e5d1-4df7-96a1-19a96a4092a6",
+              "time": 14.5,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "8d2e5c92-3d2e-40de-85bc-827e95a101e3",
+              "time": 15,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "678f2011-03cd-4c3f-ad98-fdfab186b041",
+              "time": 15.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            }
+          ]
+        },
+        {
+          "id": "9387dce5-30db-48b8-86d4-8bbe1dc4da71",
+          "type": "midi",
+          "name": "Éclats pincés",
+          "start": 48,
+          "length": 16,
+          "notes": [
+            {
+              "id": "a08788f0-5e13-4f0a-96e8-7cfce3085b68",
+              "time": 0,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "cbcb2c3a-3337-47d9-b540-3084608e7089",
+              "time": 0.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9220b398-08e6-455f-a1d8-245ca5415f96",
+              "time": 1,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "a830ecd3-220e-4de7-9c95-1e8a38103c7e",
+              "time": 1.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "22ee06b2-c4eb-442b-8383-db0e01510da3",
+              "time": 2,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "ffa83180-5416-447a-bd2a-bd178d912301",
+              "time": 2.5,
+              "pitch": 76,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "d2efaca6-c3bd-44ae-80f2-3f051cd256ea",
+              "time": 3,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "96fdc72d-5e0c-49c9-b7bc-c0bcd7fdd8b2",
+              "time": 3.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "b5de78bf-09ed-43aa-9d06-ba451ab2aa23",
+              "time": 4,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "a7cd84b0-e574-4413-89f9-65407175c747",
+              "time": 4.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "4049c09e-fdec-46f6-8fbb-d05716d27dd3",
+              "time": 5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "55f7280d-25aa-42f2-9184-3b4b31bf0269",
+              "time": 5.5,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "b1482e47-5afd-4720-b606-65d9b6e8c99d",
+              "time": 6,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "7963bf41-c5e3-4eb5-8b33-9a078b3ea10e",
+              "time": 6.5,
+              "pitch": 65,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "16dbe70b-bbc3-49c8-9f7f-56a76e692056",
+              "time": 7,
+              "pitch": 69,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "990a7362-cbf1-4291-a821-5779a3d1629c",
+              "time": 7.5,
+              "pitch": 72,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9ac7865c-5308-45fa-8bf0-cc315651025f",
+              "time": 8,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "3d60be3f-acb7-4acb-b1c3-0405e7b15a10",
+              "time": 8.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "36b17317-61f6-47ff-a2ed-68e157c71740",
+              "time": 9,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "979ad6b0-aba1-48c1-a361-ef96d222b45e",
+              "time": 9.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "b7d404f3-0739-4e15-9c54-0fbe124d9c1f",
+              "time": 10,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "f7570abf-1fb7-4bd1-943a-c73bcc83a83a",
+              "time": 10.5,
+              "pitch": 64,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "e101d4ea-3d1e-434a-bde2-3e0307043380",
+              "time": 11,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "1a61315c-9052-4397-b20b-d6338ebf49a6",
+              "time": 11.5,
+              "pitch": 60,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "9533b5fa-d552-48f2-9bd0-3fc41aceba2e",
+              "time": 12,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "53b1d454-0276-4bb6-b2cb-83ecfbb4a7b5",
+              "time": 12.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "8a17ee67-f61c-4a58-a0cd-b7da5b312793",
+              "time": 13,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "5774742e-51ac-4d5d-988c-58ec3f375983",
+              "time": 13.5,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "cb907a14-e2d1-478b-8093-8f87b2009c7f",
+              "time": 14,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "b45016ec-4891-469f-933b-df144a8ef35b",
+              "time": 14.5,
+              "pitch": 74,
+              "duration": 0.4,
+              "velocity": 0.45
+            },
+            {
+              "id": "2dbdab9c-bcaa-4764-ac47-4d9b8dd50626",
+              "time": 15,
+              "pitch": 67,
+              "duration": 0.4,
+              "velocity": 0.65
+            },
+            {
+              "id": "6d236fed-7b99-4243-814d-ceec6710e2d1",
+              "time": 15.5,
+              "pitch": 71,
+              "duration": 0.4,
+              "velocity": 0.45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aab93a3f-7247-4727-8424-6d44ce607590",
+      "name": "Basse profonde",
+      "preset": "bass",
+      "color": "#4dc3bd",
+      "volume": 0.48,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "attack": 0.008,
+      "release": 0.25,
+      "filter": 650,
+      "reverb": 0.15,
+      "delay": 0,
+      "clips": [
+        {
+          "id": "ffbbeea3-59ef-4fad-b60b-7906cc62607a",
+          "type": "midi",
+          "name": "Fondation",
+          "start": 0,
+          "length": 16,
+          "notes": [
+            {
+              "id": "c1b273d9-248a-4e9d-a54f-d3ff9ea62754",
+              "time": 0,
+              "pitch": 45,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "602dde14-e915-435d-8456-2692426ca260",
+              "time": 2.5,
+              "pitch": 45,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "5c1403e5-a25b-40b9-980b-26b8e81dacaa",
+              "time": 4,
+              "pitch": 41,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "78572a6c-1033-4b05-8cb2-84aae6ca88ca",
+              "time": 6.5,
+              "pitch": 41,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "174956e5-ec8d-4653-af43-7bcb6d7325c3",
+              "time": 8,
+              "pitch": 36,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "a520ccf2-1c4a-4dd6-bbe6-311c5556e889",
+              "time": 10.5,
+              "pitch": 36,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "a48c10b2-cab3-4b05-a601-0c4143e016c2",
+              "time": 12,
+              "pitch": 43,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "7ab34f0f-52d2-487b-8799-223df14f8e48",
+              "time": 14.5,
+              "pitch": 43,
+              "duration": 1,
+              "velocity": 0.65
+            }
+          ]
+        },
+        {
+          "id": "7ddd5c94-22a5-4f35-bd53-97a21b354e9c",
+          "type": "midi",
+          "name": "Fondation",
+          "start": 16,
+          "length": 16,
+          "notes": [
+            {
+              "id": "c0e5757a-4c99-4eff-8a94-b5d1a5189fc3",
+              "time": 0,
+              "pitch": 45,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "86894798-1290-4d30-9884-8fe6ef53b5c0",
+              "time": 2.5,
+              "pitch": 45,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "0dfddd00-455c-416b-bcef-f33e5010e2d9",
+              "time": 4,
+              "pitch": 41,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "d1df9de7-a14e-4d72-a524-2a4c309c0d1f",
+              "time": 6.5,
+              "pitch": 41,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "a7949dd6-8238-4327-8349-9cd84545e2a4",
+              "time": 8,
+              "pitch": 36,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "9f71121f-52bd-4b76-9b78-d770c306265e",
+              "time": 10.5,
+              "pitch": 36,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "964acbe9-9636-47b8-a72a-5f364f3325aa",
+              "time": 12,
+              "pitch": 43,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "3b9fb747-6eb9-4006-b942-84b1b2f0dac5",
+              "time": 14.5,
+              "pitch": 43,
+              "duration": 1,
+              "velocity": 0.65
+            }
+          ]
+        },
+        {
+          "id": "5fb7ade4-b9bc-4bae-8288-5f068f4b7a84",
+          "type": "midi",
+          "name": "Fondation",
+          "start": 32,
+          "length": 16,
+          "notes": [
+            {
+              "id": "e915c6a7-379d-42d9-a62a-b92995342e07",
+              "time": 0,
+              "pitch": 45,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "1f732020-ef62-4e86-9111-248345224b4f",
+              "time": 2.5,
+              "pitch": 45,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "622f853b-0df3-4d06-b68f-bd1e50a5a047",
+              "time": 4,
+              "pitch": 41,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "ebf6f42c-1007-4bfc-829a-10faf86653f4",
+              "time": 6.5,
+              "pitch": 41,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "b21d32f6-0136-4946-a1a4-10c6a1a09631",
+              "time": 8,
+              "pitch": 36,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "9d145bae-947a-4411-8c61-f7f6e6aab4ae",
+              "time": 10.5,
+              "pitch": 36,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "ec8adf33-20ac-46ee-924b-fa6ac26a9973",
+              "time": 12,
+              "pitch": 43,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "1972c007-b297-4f8c-8b5b-6b18eb16c060",
+              "time": 14.5,
+              "pitch": 43,
+              "duration": 1,
+              "velocity": 0.65
+            }
+          ]
+        },
+        {
+          "id": "aae7edf3-e7aa-491e-bbc6-32f8899e4a8a",
+          "type": "midi",
+          "name": "Fondation",
+          "start": 48,
+          "length": 16,
+          "notes": [
+            {
+              "id": "7617658e-908b-44ca-b641-9a8d3ccbe4f0",
+              "time": 0,
+              "pitch": 45,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "be479a45-1409-4393-9b33-f6b4d7a6e389",
+              "time": 2.5,
+              "pitch": 45,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "5f42cef4-57ef-4ec6-978a-f54a2e3616b8",
+              "time": 4,
+              "pitch": 41,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "81726c85-7e10-484a-aa9d-bf446889e3a1",
+              "time": 6.5,
+              "pitch": 41,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "5858738f-d035-4888-b904-1542748a0772",
+              "time": 8,
+              "pitch": 36,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "f8fa7f34-75f6-40b1-a158-471fb9319c99",
+              "time": 10.5,
+              "pitch": 36,
+              "duration": 1,
+              "velocity": 0.65
+            },
+            {
+              "id": "89235660-59ea-49ab-bddc-a162fe299984",
+              "time": 12,
+              "pitch": 43,
+              "duration": 1.5,
+              "velocity": 0.8
+            },
+            {
+              "id": "d4bdbe31-d427-4079-9b6a-45cab169a957",
+              "time": 14.5,
+              "pitch": 43,
+              "duration": 1,
+              "velocity": 0.65
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2fce9811-0bc7-4d67-81ad-c60a39a7c80b",
+      "name": "Batterie électronique",
+      "preset": "drums",
+      "color": "#ee8eb5",
+      "volume": 0.55,
+      "pan": 0,
+      "mute": false,
+      "solo": false,
+      "attack": 0.001,
+      "release": 0.12,
+      "filter": 12000,
+      "reverb": 0.15,
+      "delay": 0,
+      "clips": [
+        {
+          "id": "cd2ca688-4453-4508-8e3e-99d169ca4174",
+          "type": "midi",
+          "name": "Pulse / 01",
+          "start": 0,
+          "length": 16,
+          "notes": [
+            {
+              "id": "3eb8088a-1871-4608-aaf8-41a5b40945c5",
+              "time": 0,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "5adb390a-6830-46d4-83c0-eb93adc1c83e",
+              "time": 2,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "005f3a01-e981-4685-9316-b0c27f8208cc",
+              "time": 1,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "5043b89b-2310-482a-aa56-caeb8b941cef",
+              "time": 3,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "1ddb11a3-f12b-42d8-b5d4-01b302cc10a8",
+              "time": 0,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "32082425-4ee9-4cf0-8ef6-c91742f2f44a",
+              "time": 0.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "ff5859ea-78e3-4536-842b-a9ff6e2e2832",
+              "time": 1,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "4e4745e4-a552-4725-ab64-73786edbcc7b",
+              "time": 1.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "2dbb7dda-b7f0-48c2-ac53-5c6ba7803619",
+              "time": 2,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "bdc10774-f732-4791-afb4-4a4dd28ca0b6",
+              "time": 2.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "1341af0e-5c7f-4617-a8dd-a1c848d3f162",
+              "time": 3,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "d76abc9e-0233-4f4c-880e-7684574be773",
+              "time": 3.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "741aad30-9dac-4b00-abc1-6102a75fed42",
+              "time": 4,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "e5edf06c-c085-4c10-b2fb-03e015a911e5",
+              "time": 6,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "107af7b0-2c62-4033-9fdf-4d2f3c40ba43",
+              "time": 5,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "6109fa7e-0cd3-4b42-b9e6-b21f70a99f00",
+              "time": 7,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "57e76ce4-7fda-4f84-a05d-61799a432eb9",
+              "time": 4,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "8c9b3f1e-0e3f-419d-8239-bfaffae8c42d",
+              "time": 4.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "26d448ff-2e2f-4952-9ef3-6cdf6532224d",
+              "time": 5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "d56eed7f-0fde-4c59-ae64-718fda33dce4",
+              "time": 5.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "046b6410-d314-4e26-b2e9-f247c8ffde67",
+              "time": 6,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "a86b52d5-8caa-401c-a1cd-36a558951649",
+              "time": 6.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "69e9bc47-a685-49ca-a760-f26d5a081636",
+              "time": 7,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "962135c3-a8ce-4b24-ad4e-06c342eebf90",
+              "time": 7.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "9120b8b6-7b43-41d8-a5ba-d41b21591c54",
+              "time": 8,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "818546c1-e410-443f-9c7c-25dd6dfb09a9",
+              "time": 10,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "d92368e3-73cd-4351-8326-071d6b817930",
+              "time": 9,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "17c19f0b-c8e8-4e1d-9555-6ebdc34077ea",
+              "time": 11,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "2cf50dfa-2a2e-46e9-8976-22d17a763ba0",
+              "time": 8,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "e107979f-782c-4997-b1dc-04061af937cf",
+              "time": 8.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "c74f753c-2f8e-41a3-ba8e-046a4711c1c5",
+              "time": 9,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "fb6b09ce-ecc9-429a-8127-8b8b0011df47",
+              "time": 9.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "bce23233-44ef-428b-b8e4-e59b6327e014",
+              "time": 10,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "c816738d-3c8b-4c7e-a406-80b34291e9ae",
+              "time": 10.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "de8c395a-9f54-4933-b0b0-99dd63534020",
+              "time": 11,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "aedbb187-5941-4671-a6f5-ad35286a80dc",
+              "time": 11.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "f81de58b-24cb-4463-8df9-ef0fa74730fb",
+              "time": 12,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "d311ec2f-3c20-4296-8151-a50cc9d5d8e1",
+              "time": 14,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "3134323d-2b04-48d2-a473-422396e4fca4",
+              "time": 13,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "a71c1a3f-ffeb-43e8-8f5b-5da5154f8221",
+              "time": 15,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "0d4832a4-4794-4cb5-af9b-dc5bfda7a2ea",
+              "time": 12,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "c684b7ee-eed2-496c-b495-f6d904af2640",
+              "time": 12.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "c5878374-733f-4854-b92d-164ffb80a0e9",
+              "time": 13,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "96a24496-e6e7-4731-a1ae-0bb93ecc430b",
+              "time": 13.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "7d687d3b-ca01-4450-8f74-f54cfdbb202e",
+              "time": 14,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "a5efdbea-2936-4851-9c5b-6dd7c4e7484f",
+              "time": 14.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "03177ef6-bdb5-4c39-9e35-03f5b11bde5b",
+              "time": 15,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "bcba886d-690f-4355-94ab-3b4121a60a1d",
+              "time": 15.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            }
+          ]
+        },
+        {
+          "id": "49c46684-db18-4176-8d28-d45a8746e57e",
+          "type": "midi",
+          "name": "Pulse / 01",
+          "start": 16,
+          "length": 16,
+          "notes": [
+            {
+              "id": "0e7a8bdd-db8f-4de3-b363-757f58c6dd34",
+              "time": 0,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "21ca57cd-55c3-43a6-bb0e-4bee2cf95d4e",
+              "time": 2,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "654f8843-f939-4729-ade9-883bb23860ce",
+              "time": 1,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "c321613f-70c1-49a0-9a16-d277411e0d74",
+              "time": 3,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "868b414c-e4c1-4443-9b2c-49d18c2e7197",
+              "time": 0,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "a4893ecb-4681-453b-99e1-e1acba11e851",
+              "time": 0.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "0d23cf4f-c10d-4290-a840-c02a1ec44972",
+              "time": 1,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "ea9d3411-a633-45e2-a8b9-29daf035cdfa",
+              "time": 1.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "61aad534-3656-47f1-bfbb-d8be3d63eec1",
+              "time": 2,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "bce600c0-9ee6-44f6-8695-bcc760d847e7",
+              "time": 2.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "83f02ca7-da4d-42bc-98ab-cb4cb5043a12",
+              "time": 3,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "a11ad5b7-ae5e-4eb5-b4b0-66bbf2b48cd9",
+              "time": 3.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "e935be49-9ac2-4321-aa4d-070a158e5085",
+              "time": 4,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "28871215-d4c7-41ab-bf1d-a7e9b09d98cb",
+              "time": 6,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "07fbd9be-7318-43a1-998d-3ed3c9783717",
+              "time": 5,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "6215663a-3f12-4ec7-a28c-6f0e8bfdfbe3",
+              "time": 7,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "291f700f-fa85-4fc7-a260-0cf31a8ff8e2",
+              "time": 4,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "2930445e-53b6-4208-8312-83c004bc910a",
+              "time": 4.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "0edff9d4-93f4-4f52-8bdd-ecb73ffec4db",
+              "time": 5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "6c3e645c-ce23-4afa-b94c-3937cd1d0423",
+              "time": 5.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "770bae91-de48-4df4-9654-b9f6d5f9724d",
+              "time": 6,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "113dcce5-bf56-453d-8aa5-c9478f68905f",
+              "time": 6.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "b00904ec-979e-4c35-9940-69f96db80008",
+              "time": 7,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "c4cf0c16-9bf9-4c43-8345-89fe23196d4b",
+              "time": 7.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "77958253-12b8-4551-8098-6ef72477b797",
+              "time": 8,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "5f461b10-449b-4207-8dd0-5385fc280740",
+              "time": 10,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "f401a561-5231-4b73-8ea2-c98ce6a43037",
+              "time": 9,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "7c7911ff-2f42-437f-8a26-437d551084b4",
+              "time": 11,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "bd166ad9-710d-4dae-8842-b3470709fea3",
+              "time": 8,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "52b061bc-01c2-4a50-894e-50b06dfe7ff2",
+              "time": 8.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "caf2af60-6dd1-4a9b-af98-c07fb7a02c96",
+              "time": 9,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "685120e1-fd9d-4463-b3f8-077e855a2e98",
+              "time": 9.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "b3ea9608-545a-461c-ac1a-6bf76bccea83",
+              "time": 10,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "c3d1b9fc-f8bb-41d6-aa27-2c826ab36c68",
+              "time": 10.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "1fea1826-ba3a-4ccf-bd7d-bf72c8f9ba75",
+              "time": 11,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "5dcc3743-e9e1-4fac-8249-14e43995f5dd",
+              "time": 11.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "fb443877-84e9-4d2f-b6a1-a1edcddce8d6",
+              "time": 12,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "0afc5cd5-cc24-472a-ae69-6399eb10504d",
+              "time": 14,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "ba0e35e6-e2b3-4e3c-9b56-091f785121c7",
+              "time": 13,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "bca8b8d4-266a-40d7-8dc4-d7e43815667a",
+              "time": 15,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "805cb65b-839a-4266-bac9-b04d9643707c",
+              "time": 12,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "f26d767a-42a7-4729-9fa2-d2c1335a515f",
+              "time": 12.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "2df6d812-b87a-4431-ac2c-4da8a338e997",
+              "time": 13,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "ede566ea-f3e1-47a4-9a1e-0cca3fe6a31b",
+              "time": 13.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "66af719a-601b-4f9d-b489-614fb3a9ee27",
+              "time": 14,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "4045467a-27ed-4835-8172-eed2a937cbf2",
+              "time": 14.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "7ffbda7c-4697-43e8-b920-ae862065418a",
+              "time": 15,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "190314bc-7bcb-4908-a56a-0d53b8a8f323",
+              "time": 15.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            }
+          ]
+        },
+        {
+          "id": "ddeeae2c-a1d3-44d0-9268-fcacead6332f",
+          "type": "midi",
+          "name": "Pulse / 01",
+          "start": 32,
+          "length": 16,
+          "notes": [
+            {
+              "id": "2c0d46e2-0039-4d93-b50b-7b51e98c0282",
+              "time": 0,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "bd2b6829-fc82-4e6b-8172-dec83b51f9de",
+              "time": 2,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "53e408aa-c632-4a2b-bab9-936620a14f5e",
+              "time": 1,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "a6b8be1e-b574-45cc-acf1-14c98d5407c0",
+              "time": 3,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "3ed41ba7-7a7d-4342-9ee5-6d919ec947f2",
+              "time": 0,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "90a48e9b-fc2a-4f07-b60c-a1e0362dfa57",
+              "time": 0.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "03543e4c-28d8-4844-a4d6-5cb757c884a3",
+              "time": 1,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "09dcdc7e-c471-4ee9-b07c-ea8f2dc8588e",
+              "time": 1.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "f8b280f8-10d4-404a-9df4-740bf7bd11ae",
+              "time": 2,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "4cecc577-34b9-49c1-9b25-9eadc8c5ef10",
+              "time": 2.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "b4873d38-af6b-437e-b929-9cc828773880",
+              "time": 3,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "cbf5f339-100d-4fdf-8e7f-55954f71ec81",
+              "time": 3.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "345c2992-0670-4b5c-9f24-043ca0b1c1da",
+              "time": 4,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "6a935289-115c-4067-a275-c6d500d9af0f",
+              "time": 6,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "c53af933-37dc-44f0-9396-6d6b42fc0857",
+              "time": 5,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "80c4e11e-f148-4016-9ca9-834d2302290c",
+              "time": 7,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "1ba1eae9-0174-4eff-b496-f01b924b2bf0",
+              "time": 4,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "1a9d72ba-35ce-43ee-ba18-5397919b2736",
+              "time": 4.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "f4b69ebe-aa48-430a-b621-57e1d8c93f5f",
+              "time": 5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "d20733b2-90ae-43d1-80e1-7297d2539377",
+              "time": 5.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "20f562ca-d9a6-48fa-9511-d7d948ad7725",
+              "time": 6,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "ffaaa396-c9c9-4d4f-a443-33ab6ac74e69",
+              "time": 6.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "40b92a59-4e69-4699-b66a-68d1d4889782",
+              "time": 7,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "60d63580-0e29-4a0f-ae49-72740200aed8",
+              "time": 7.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "45814c87-3aec-4c20-b2de-e901fdf5385e",
+              "time": 8,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "b8f20fb3-bbb6-41f5-8a56-707a4118ff61",
+              "time": 10,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "88d58237-82af-4446-9ec9-8022b5919c25",
+              "time": 9,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "23af1009-25fb-4553-a7a2-6bd3a5884097",
+              "time": 11,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "78788bb1-743b-45bf-8477-19cbcd1070ed",
+              "time": 8,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "f21ae32d-448a-4ba5-97d1-bcd6bf25ba07",
+              "time": 8.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "04dc4eab-8297-4210-8b7f-d260fef255a9",
+              "time": 9,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "0c3996d0-64ea-4352-94da-d68942acac52",
+              "time": 9.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "877f749e-48f3-4360-b333-55342fa4f929",
+              "time": 10,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "bb20665e-1b8b-449a-8388-0b02313b1e9a",
+              "time": 10.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "d54058de-d69b-4682-b26f-d0d0479bd014",
+              "time": 11,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "cc1f8637-0cf7-465c-8b29-212abfc34077",
+              "time": 11.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "c79790e5-81f3-4c9b-a9ea-95ee796cb426",
+              "time": 12,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "0c332e12-a8f2-4143-be17-0202d6d1660e",
+              "time": 14,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "46bd8841-f388-4d4a-803e-0d2af91943a1",
+              "time": 13,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "f5d186c7-e07d-452b-914c-f6453eebdec0",
+              "time": 15,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "b833d676-86b7-4c5d-a9b7-98064cbdf34e",
+              "time": 12,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "b7a53f26-bb88-4750-abdb-25badf49b2a0",
+              "time": 12.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "55a50fe7-3c12-4e33-babe-377e17160249",
+              "time": 13,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "453c3f83-53e2-4a5d-a68a-be9bc76a8b00",
+              "time": 13.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "7ef0f825-9bcc-41da-9b65-9988a4a386c8",
+              "time": 14,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "0d0184dc-f0f2-4a1e-af00-c6598ae4b056",
+              "time": 14.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "d5532cca-40d6-4103-b3b0-99ad151bf465",
+              "time": 15,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "4e8cd8b2-40fb-4ce6-a625-631b5351bf49",
+              "time": 15.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            }
+          ]
+        },
+        {
+          "id": "497143ea-40a2-4913-af5d-491471847f80",
+          "type": "midi",
+          "name": "Pulse / 01",
+          "start": 48,
+          "length": 16,
+          "notes": [
+            {
+              "id": "99ea16e8-8e1f-4e0b-8d02-18d7cf762ee0",
+              "time": 0,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "2eac9364-df3d-40c7-827e-46e0e95e3a62",
+              "time": 2,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "f2d87832-7de5-4c23-abcb-fbf0bac2d6ee",
+              "time": 1,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "4d9d30a3-e1b7-4b94-b601-3c561a8dcbf2",
+              "time": 3,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "c0a1f2c2-1807-45c7-8bb4-26ca67b30f5e",
+              "time": 0,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "d04e2ed5-b579-4857-a0d2-24c4c46b5d8a",
+              "time": 0.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "2c65830e-3ff5-40c7-89e3-d7a0bc128467",
+              "time": 1,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "b59a00ea-bb5e-4f47-8758-5ffa2e8ec620",
+              "time": 1.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "07a73799-be35-4b5a-8d08-6bb406394bbf",
+              "time": 2,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "6f52ad95-70a7-4994-82f3-48c9d7a24b62",
+              "time": 2.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "7efbb689-5e01-4b16-80ce-533e0c00ce34",
+              "time": 3,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "a92e502d-2d06-4d2b-9723-44b2ed0c3f7f",
+              "time": 3.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "bcac9f77-9f26-4a45-822d-075ea5f4fa7a",
+              "time": 4,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "0f7a13ca-79d0-4f22-8e9d-9baf3b56e4e1",
+              "time": 6,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "f978b3e7-feca-4f22-af72-00b8f58dbd5e",
+              "time": 5,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "e8f1c364-c7d2-4043-a8db-300fe2617470",
+              "time": 7,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "d0889aeb-d4be-445e-ba54-e8242d561ec6",
+              "time": 4,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "ec8634f7-ebf1-46ec-96ac-83588f8ca03d",
+              "time": 4.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "c484120c-5e99-4979-8b97-8ad53a40a551",
+              "time": 5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "4632a099-7985-4dde-8f5f-22d89e7623b0",
+              "time": 5.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "a48a9437-8926-421b-8983-523e0ad8ef2f",
+              "time": 6,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "89c6c46a-416c-487a-9236-597b848f2a3f",
+              "time": 6.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "0e5aa769-7674-45f4-a753-387d2a8011c8",
+              "time": 7,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "368f5e57-4cd1-4ce1-a25d-c4b7c39b2899",
+              "time": 7.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "075fa376-141c-473e-bb39-45a0b5d00a0c",
+              "time": 8,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "00f8462e-f1ff-41fc-a464-5d245e6641ca",
+              "time": 10,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "00a48cdc-795a-4307-bfdd-bb9268938add",
+              "time": 9,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "fa7a3ead-1450-4f76-9896-cfe43beab8c7",
+              "time": 11,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "3f15affa-665f-42d9-965e-35b398217ab6",
+              "time": 8,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "b8aa4c49-ce90-423d-82cc-adc2e56bcf75",
+              "time": 8.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "fe68d7c9-5d75-4a59-9f7c-b66a2d66a984",
+              "time": 9,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "59abb37b-b4f5-4810-8d59-4d0b872e0bb9",
+              "time": 9.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "cbc7d534-7178-419c-8d87-40c03d8d40d4",
+              "time": 10,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "f00e2a51-c037-43aa-8e75-81b2ba5e4fa8",
+              "time": 10.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "2361a871-c04c-4547-bf61-bceaa89bc5a6",
+              "time": 11,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "49e343c4-d522-43c9-a9e6-fde84de5779b",
+              "time": 11.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "ba233576-9d6e-4e96-a12a-c0fef4fabbd9",
+              "time": 12,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.9
+            },
+            {
+              "id": "bd3b33bf-fed8-4814-8e38-de03baeecae4",
+              "time": 14,
+              "pitch": 36,
+              "duration": 0.25,
+              "velocity": 0.75
+            },
+            {
+              "id": "92dbb8b3-1d9f-475f-8a9d-d6156eb595f9",
+              "time": 13,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.7
+            },
+            {
+              "id": "e8cbe7d5-25e6-482b-8cb2-a8dcd6e8e8ed",
+              "time": 15,
+              "pitch": 38,
+              "duration": 0.25,
+              "velocity": 0.8
+            },
+            {
+              "id": "c3453120-adcd-4562-a572-385ceb505fea",
+              "time": 12,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "1d46ea98-7af2-4704-b1b3-398e9b93c477",
+              "time": 12.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "f46180b1-56fd-453c-af26-70dc77ad8c4a",
+              "time": 13,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "91dfaaa6-65dc-44a9-88e9-a0692320d9e6",
+              "time": 13.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "42a14a79-b590-482f-b303-44c9a9b95770",
+              "time": 14,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "2210be7d-8512-4391-8a3f-f8512685b62e",
+              "time": 14.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            },
+            {
+              "id": "d0743d40-8c6a-44e3-9bd3-880e37061a1c",
+              "time": 15,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.6
+            },
+            {
+              "id": "6d06ccc6-8fab-4563-a85b-17f58e17d6bd",
+              "time": 15.5,
+              "pitch": 42,
+              "duration": 0.125,
+              "velocity": 0.4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "markers": [
+    {
+      "name": "Départ",
+      "beat": 0
+    },
+    {
+      "name": "Développement",
+      "beat": 32
+    }
+  ],
+  "assets": {},
+  "updated": 1795395971283,
+  "status": "En cours",
+  "kind": "Instrumental"
+}
